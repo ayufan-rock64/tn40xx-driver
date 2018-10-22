@@ -7,6 +7,8 @@
 # Build Configuration:
 #######################################
 
+MV88X3310 ?= YES
+
 PWD           := $(shell pwd)
 KVERSION      := $(shell uname -r)
 EXPECTED_KDIR := /lib/modules/$(KVERSION)/build
