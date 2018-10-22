@@ -4,7 +4,7 @@ Dynamic Kernel Module Support (DKMS) builds Linux kernel modules whose sources r
 
 install
 =======
-    git clone https://github.com/acooks/tn40xx-driver.git /usr/src/tn40xx-001
+    git clone https://github.com/ayufan-rock64/tn40xx-driver.git /usr/src/tn40xx-001
     dkms add -m tn40xx -v 001
 
 build driver for current kernel
