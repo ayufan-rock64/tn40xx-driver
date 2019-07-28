@@ -4902,8 +4902,8 @@ static void bdx_ethtool_ops(struct net_device *netdev)
 #ifdef ETHTOOL_SLINKSETTINGS
 		.set_link_ksettings = bdx_set_link_ksettings,
 #endif
-		.get_settings = bdx_get_settings,
-		.set_settings = bdx_set_settings,
+		// .get_settings = bdx_get_settings,
+		// .set_settings = bdx_set_settings,
 		.get_drvinfo = bdx_get_drvinfo,
 		.get_link = ethtool_op_get_link,
 		.get_coalesce = bdx_get_coalesce,
